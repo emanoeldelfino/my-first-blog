@@ -2,6 +2,7 @@
 *.pyc
 *~
 __pycache__
+local_settings.py
 
 # Env
 .env
@@ -11,8 +12,9 @@ venv/
 # Database
 db.sqlite3
 
-# Static folder at project root
+# Static and Media folder at project root
 /static/
+/media/
 
 # macOS
 ._*
