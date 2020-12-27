@@ -3,7 +3,8 @@ from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
-
+import os
+from mysite import settings
 
 def post_list(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
@@ -63,6 +64,7 @@ def post_publish(request, pk):
 @login_required
 def post_remove(request, pk):
     post = get_object_or_404(Post, pk=pk)
+    post.photo.delete()
     post.delete()
 
     if post.published_date:
