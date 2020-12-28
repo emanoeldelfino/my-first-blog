@@ -22,7 +22,7 @@ hr {
 }
 
 .comment {
-    margin: 20px 0p 20px 20px;
+    margin: 20px 10px 0px;
     width: 100%;
 }
 
@@ -39,8 +39,7 @@ hr {
 }
 
 a.btn.btn-default {
-    margin-right: 5px;
-    align-self: flex-start;
+    margin-left: 5px;
 }
 
 .page-header {
