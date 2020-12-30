@@ -1,5 +1,6 @@
 # my-first-blog
 
-Blog application built with Django, HTML and CSS.
+Blog application built with Django (HTML, CSS):
 
-Deployed in [pythonanywhere](https://emanoel.pythonanywhere.com) and [Heroku](https://djangodelfino.herokuapp.com/).
+- [pythonanywhere](https://emanoel.pythonanywhere.com);
+- [Heroku](https://delfinoblog.herokuapp.com/).
