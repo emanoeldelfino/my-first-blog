@@ -21,9 +21,17 @@ hr {
     border: 1px inset;
 }
 
+h1 a {
+    margin-right: 30px;
+}
+
 .comment {
     margin: 20px 10px 0px;
     width: 100%;
+}
+
+.comment-author {
+    display: block;
 }
 
 .comments {
@@ -40,6 +48,10 @@ hr {
 
 a.btn.btn-default {
     margin-left: 5px;
+}
+
+.comment .date {
+    display: inline;
 }
 
 .page-header {
@@ -63,10 +75,7 @@ a.btn.btn-default {
     margin-bottom: 75px;
     display: flex;
     flex-flow: row wrap;
-}
-
-.post h1, .post h2 {
-    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .post h2 a, .post h2 a:visited {
