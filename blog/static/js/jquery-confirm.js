@@ -1,3 +1,3 @@
-$(document).on('click', '.delete-post, .comment-approve, .publish-post', function(){
+$(document).on('click', '.confirm', function(){
     return confirm('Are you sure you want to do this?');
 })
